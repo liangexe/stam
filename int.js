@@ -1,8 +1,3 @@
-document.querySelector('.logo')?.addEventListener('click', () => {
-    window.location.href = '#section1';
-    window.location.reload();
-});
-
 const faqs = document.querySelectorAll('.faq');
 faqs.forEach(faq => {
     faq.addEventListener('click', () => {
