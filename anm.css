@@ -335,6 +335,11 @@
     margin: 0 100px;
     padding: 20px 0;
     cursor: pointer;
+    overflow-y: hidden;
+}
+
+.faq::-webkit-scrollbar {
+    display: none;
 }
 
 .faq-title {
