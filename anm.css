@@ -330,7 +330,7 @@
     overflow-y: hidden;
 }
 
-.faq::-webkit-scrollbar {
+#section5::-webkit-scrollbar {
     display: none;
 }
 
