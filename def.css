@@ -74,6 +74,10 @@ body {
     background-color: #000;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 header {
     display: flex;
     position: fixed;
