@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Freesentation';
+    src: url('/fonts/Freesentation-1Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freesentation';
+    src: url('/fonts/Freesentation-2ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freesentation';
+    src: url('/fonts/Freesentation-3Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freesentation';
+    src: url('/fonts/Freesentation-4Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freesentation';
+    src: url('/fonts/Freesentation-5Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freesentation';
+    src: url('/fonts/Freesentation-6SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freesentation';
+    src: url('/fonts/Freesentation-7Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freesentation';
+    src: url('/fonts/Freesentation-8ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freesentation';
+    src: url('/fonts/Freesentation-9Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Imbue', 'Freesentation', serif;
+    padding: 0;
+    font-weight: 300;
+    background-color: #000;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-top: 30px;
+    height: auto;
+    padding: 0;
+    z-index: 101;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 90%;
+    height: auto;
+    color: #bebebe;
+    padding: 0 100px;
+    margin: 0 0 60px 0;
+}
+
+footer p {
+    margin: 10px 100px;
+    font-size: 1.4rem;
+}

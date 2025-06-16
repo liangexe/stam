@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SNTHSNGL</title>
+    <link rel="stylesheet" href="def.css">
+    <link rel="stylesheet" href="anm.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="menu-overlay" id="menuOverlay">
+    <div class="menu-items">
+        <a href="#section2" onclick="navigateToSection('section1')">Angel Number</a>
+        <a href="#section3" onclick="navigateToSection('section2')">Angel Ency.</a>
+        <a href="#section5" onclick="navigateToSection('section4')">FAQ</a>
+    </div>
+</div>
+
+<div id="section1" class="section">
+    <header>
+        <div class="logo"></div>
+        <div class="menu-icon" id="menuIcon" onclick="toggleMenu()"></div>
+    </header>
+    <div class="text-animation" id="textAnimation">Seen this Angel?</div>
+</div>
+
+<div id="section2" class="section">
+    <div class="sec2-desc" style="position: relative; z-index: 1;">
+        <div class="st1">What is the Angel Number?</div>
+        <div class="st2">
+            천사나 영적인 존재가 인간에게 전달하는 메시지로 여겨지는, 반복적으로 나타나는 특정 숫자.
+        </div>
+    </div>
+</div>
+
+
+<div id="section3" class="section">
+    <div class="icons">
+        <div class="icon icon0" data-description="000: new beginning and infinite possibilities" onclick="navigateToAngel(0)"></div>
+        <div class="icon icon1" data-description="111: spiritual awakening and message" onclick="navigateToAngel(1)"></div>
+        <div class="icon icon2" data-description="222: healing and patience" onclick="navigateToAngel(2)"></div>
+        <div class="icon icon3" data-description="333: creativity and harmony" onclick="navigateToAngel(3)"></div>
+        <div class="icon icon4" data-description="444: protection and stability" onclick="navigateToAngel(4)"></div>
+        <div class="icon icon5" data-description="555: change and transformation" onclick="navigateToAngel(5)"></div>
+        <div class="icon icon6" data-description="666: material obsession" onclick="navigateToAngel(6)"></div>
+        <div class="icon icon7" data-description="777: spiritual awakening and completion" onclick="navigateToAngel(7)"></div>
+        <div class="icon icon8" data-description="888: affluence and wealth" onclick="navigateToAngel(8)"></div>
+        <div class="icon icon9" data-description="999: completion and enlightenment" onclick="navigateToAngel(9)"></div>
+    </div>
+    <div class="icon-descriptions">
+        <div id="iconDescription"></div>
+    </div>
+</div>
+<div id="section4" class="section">
+    <div class="AWrap w0">
+        <div class="ATex">
+            <span>Michael</span>
+            <div class="tagging">#Justice #Courage</div>
+        </div>
+        <div class="ACon">
+            <img src="src/angel000.gif" alt="Michael">
+        </div>
+    </div>
+    <div class="AWrap w1">
+        <div class="ATex">
+            <span>Gabriel</span>
+            <div class="tagging">#Messenger #Power</div>
+        </div>
+        <div class="ACon">
+            <img src="src/angel111.gif" alt="Gabriel">
+        </div>
+    </div>
+    <div class="AWrap w2">
+        <div class="ATex">
+            <span>Uriel</span>
+            <div class="tagging">#Wisdom #Heal</div>
+        </div>
+        <div class="ACon">
+            <img src="src/angel222.gif" alt="Uriel">
+        </div>
+    </div>
+    <div class="AWrap w3">
+        <div class="ATex">
+            <span>Cherubim</span>
+            <div class="tagging">#Knowledge #Guardians</div>
+        </div>
+        <div class="ACon">
+            <img src="src/angel333.gif" alt="Cherubim">
+        </div>
+    </div>
+    <div class="AWrap w4">
+        <div class="ATex">
+            <span>Ophanim</span>
+            <div class="tagging">#Wheels #Mystery</div>
+        </div>
+        <div class="ACon">
+            <img src="src/angel444.gif" alt="Ophanim">
+        </div>
+    </div>
+    <div class="AWrap ww">
+        <img src="src/wing.svg">
+        <img src="src/wing.svg">
+        <img src="src/wing.svg">
+    </div>
+    <div class="goUp">
+        <div class="I1"></div>
+        <div class="I2"></div>
+        <div class="I3"></div>
+    </div>
+</div>
+
+<div id="section5" class="section">
+    <div class="faq">
+        <div class="faq-title">Isn't Cupid an angel?</div>
+        <div class="faq-content">큐피드는 우리가 흔히 ‘날개 달린 아기 천사’로 그리는 이미지 때문에 천사로 오해받지만, 엄밀히 말해 천사가 아니라 신이다.</br>
+            큐피드는 로마 신화에서 사랑을 관장하는 신, 즉 ‘쿠피도(Cupido)’로, 그리스 신화의 에로스(Eros)와 동일한 존재다.</br>
+            천사는 유일신(하나님 또는 하느님)의 심부름꾼이자 영적 존재로, 신화적 신과는 본질적으로 다르다.</br>
+            즉, 큐피드는 신화 속 신이고, 천사는 종교적 전통에서 신의 사자(使者)라는 점에서 그 출발점과 역할이 다르다.</div>
+    </div>
+    <div class="faq">
+        <div class="faq-title">Why are angels good-hearted?</div>
+        <div class="faq-content">‘천사는 착하다’는 이미지는 종교적·문화적 상상력에서 비롯된다.</br>
+            성경에서 천사는 신을 찬양하고, 그의 뜻을 수행하며, 사람들을 돕는 역할을 맡는다.</br>
+            천사는 지성, 감정, 의지를 지닌 영적 존재로, 신을 섬기고 인간을 보호하거나 메시지를 전하는 등 긍정적 임무를 수행한다.</br>
+            이런 이유로 천사는 ‘착한’ 존재로 인식되나 성경에는 선한 천사만 있는 것이 아니라, 타락한 천사(악한 천사, 마귀)도 등장한다.</br>
+            대중적으로는 ‘천사 같다’는 표현이 온유하고 선한 사람을 비유할 때 쓰이기도 한다.</br>
+            천사가 착하다는 이미지는 그들이 주로 선한 임무를 맡아왔기 때문에 굳어진 문화적 관념이다.</div>
+    </div>
+    <div class="faq">
+        <div class="faq-title">Do angels live only in heaven?</div>
+        <div class="faq-content">천사가 반드시 ‘천국’에서만 지내는 것은 아니다. 성경에 따르면 천사는 영적 존재로, 신의 명령에 따라 하늘(천국)과 땅(세상)을 오가며 활동한다.</br>
+            천사는 신 앞에 나타나기도 하고, 인간에게 나타나 임무를 수행하기도 한다. 그들의 주된 거처는 ‘하늘’로 여겨지지만, 임무에 따라 인간 세계에도 나타난다.</br>
+            천사는 본질적으로 ‘하늘의 존재’이지만, 그 활동 범위는 천국에만 국한되지 않는다.</div>
+    </div>
+</div>
+
+<footer>
+    <p>2025ⓒSTA/M</p>
+</footer>
+
+<script src="int.js"></script>
+
+</body>
+</html>
